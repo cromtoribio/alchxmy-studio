@@ -23,15 +23,20 @@ export default function Home() {
             {/* Start Main Content */}
             <div className="h-screen">
                 <div className="h-full sm:rounded-lg bg-linear-[-20deg,#1E261F10_20%,#111511_80%] flex flex-col justify-between sm:p-4 p-2">
-                    <div className="flex justify-between items-center space-x-4 max-sm:text-[10px] text-center sm:px-3 sm:pb-3 sm:pt-1 p-4 font-inter font-light">
-                        <Link href="/captains-log">v0.1.0</Link>
+                    <div className="flex justify-between items-center space-x-4 max-sm:text-[10px] text-center sm:px-3 sm:pb-3 sm:pt-1 p-4 font-fraunces font-light">
+                        <Link
+                            href="/captains-log"
+                            className="min-w-fit"
+                        >
+                            v 0.1.0
+                        </Link>
                         <div className="h-px w-full bg-[#fff8dc50]"></div>
                         <span className="min-w-fit">
                             <em>brand experience architecture</em>
                         </span>
                     </div>
                     <div className="flex justify-center items-center w-full h-full px-3">
-                        <main className="flex flex-col justify-center items-center sm:text-xl text-md h-full w-full lg:border-x lg:border-[#fff8dc50]">
+                        <main className="flex flex-col justify-center items-center sm:text-xl text-md h-full w-full lg:border-x lg:border-[#fff8dc50] font-light">
                             <div className="max-w-[500px]">
                                 <div className="text-center">
                                     <Image
@@ -42,9 +47,9 @@ export default function Home() {
                                         className="mx-auto"
                                     />
                                     <p className="pt-4">
-                                        We are still setting the foundations of
-                                        our new home, but{" "}
-                                        <em>please feel free to explore!</em>
+                                        While we set the foundation of our new
+                                        home, our door is open — 
+                                        <em>feel free to poke around!</em>
                                     </p>
                                 </div>
                                 <div className="pt-5 w-full">
@@ -76,7 +81,7 @@ export default function Home() {
                             </div>
                         </main>
                     </div>
-                    <footer className="font-inter font-light">
+                    <footer className="font-fraunces font-light">
                         <div className="flex justify-between items-center space-x-4 max-sm:text-[10px] text-center sm:pt-4 sm:px-2 sm:pb-1 p-4">
                             <span className="min-w-fit">
                                 <em>good {timeOfDay} from los angeles </em>
