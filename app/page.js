@@ -23,7 +23,7 @@ export default function Home() {
             {/* Start Main Content */}
             <div className="h-screen">
                 <div className="h-full sm:rounded-lg bg-linear-[-20deg,#1E261F10_20%,#111511_80%] flex flex-col justify-between sm:p-4 p-2">
-                    <div className="flex justify-between items-center space-x-4 max-sm:text-[10px] text-center sm:px-3 sm:pb-3 sm:pt-1 p-4 font-fraunces font-light">
+                    <div className="flex justify-between items-center space-x-4 max-sm:text-md text-center sm:px-3 sm:pb-3 sm:pt-1 p-4 font-fraunces font-light">
                         <Link
                             href="/captains-log"
                             className="min-w-fit"
@@ -36,20 +36,28 @@ export default function Home() {
                         </span>
                     </div>
                     <div className="flex justify-center items-center w-full h-full px-3">
-                        <main className="flex flex-col justify-center items-center sm:text-xl text-md h-full w-full lg:border-x lg:border-[#fff8dc50] font-light">
-                            <div className="max-w-[500px]">
+                        <main className="flex flex-col justify-center items-center sm:text-xl text-md h-full w-full lg:border-x lg:border-[#fff8dc50] font-light max-sm:-mt-7">
+                            <div className="max-w-[480px]">
                                 <div className="text-center">
                                     <Image
                                         src="/FullLogo_Stacked_Light.png"
                                         alt="Alchxmy Studio Logo"
                                         width={250}
                                         height={250}
-                                        className="mx-auto"
+                                        className="mx-auto max-sm:hidden"
+                                    />
+                                    <Image
+                                        src="/FullLogo_Stacked_Light.png"
+                                        alt="Alchxmy Studio Logo"
+                                        width={200}
+                                        height={200}
+                                        className="mx-auto sm:hidden"
                                     />
                                     <p className="pt-4">
-                                        While we set the foundation of our new
-                                        home, our door is open — 
-                                        <em>feel free to poke around!</em>
+                                        Our head architect is currently crafting
+                                        a brand new virtual experience! In the
+                                        meantime, feel free to poke around and
+                                        explore ✨
                                     </p>
                                 </div>
                                 <div className="pt-5 w-full">
@@ -67,7 +75,7 @@ export default function Home() {
                                     </Link>
                                     <Link
                                         href="#"
-                                        className="flex justify-between py-3 px-5 bg-[#1E261F] border-black border rounded-lg drop-shadow-md/50 mt-3 opacity-50"
+                                        className="flex justify-between py-3 px-5 bg-primary-800 border-black border rounded-lg drop-shadow-md/50 mt-3 opacity-50"
                                     >
                                         <span>About the Studio</span>
                                         <Image
@@ -82,7 +90,7 @@ export default function Home() {
                         </main>
                     </div>
                     <footer className="font-fraunces font-light">
-                        <div className="flex justify-between items-center space-x-4 max-sm:text-[10px] text-center sm:pt-4 sm:px-2 sm:pb-1 p-4">
+                        <div className="flex justify-between items-center space-x-4 max-sm:text-sm text-center sm:pt-4 sm:px-2 sm:pb-1 p-4">
                             <span className="min-w-fit">
                                 <em>good {timeOfDay} from los angeles </em>
                                 {timeEmoji}
