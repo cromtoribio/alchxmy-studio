@@ -22,10 +22,10 @@ export default function Home() {
         <>
             {/* Start Main Content */}
             <div className="h-screen">
-                <div className="h-full sm:rounded-lg bg-linear-[-20deg,#1E261F10_20%,#111511_80%] flex flex-col justify-between sm:p-4 p-2">
+                <div className="h-full bg-linear-[-20deg,#4b5e4b50_20%,#111511_80%] flex flex-col justify-between sm:p-4 p-2">
                     <div className="flex justify-between items-center space-x-4 max-sm:text-md text-center sm:px-3 sm:pb-3 sm:pt-1 p-4 font-fraunces font-light">
                         <Link
-                            href="/captains-log"
+                            href="/changelog"
                             className="min-w-fit"
                         >
                             v 0.1.0
