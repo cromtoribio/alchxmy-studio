@@ -26,9 +26,9 @@ export default function Home() {
                     <div className="flex justify-between items-center space-x-4 max-sm:text-md text-center sm:px-3 sm:pb-3 sm:pt-1 p-4 font-fraunces font-light">
                         <Link
                             href="/changelog"
-                            className="min-w-fit"
+                            className="min-w-fit font-code text-xs hover:underline"
                         >
-                            v 0.1.0
+                            v0.1.0
                         </Link>
                         <div className="h-px w-full bg-[#fff8dc50]"></div>
                         <span className="min-w-fit">
@@ -40,20 +40,20 @@ export default function Home() {
                             <div className="max-w-[480px]">
                                 <div className="text-center">
                                     <Image
-                                        src="/FullLogo_Stacked_Light.png"
+                                        src="/AlchxmyStudio_FullStack.png"
                                         alt="Alchxmy Studio Logo"
-                                        width={250}
-                                        height={250}
+                                        width={400}
+                                        height={400}
                                         className="mx-auto max-sm:hidden"
                                     />
                                     <Image
-                                        src="/FullLogo_Stacked_Light.png"
+                                        src="/AlchxmyStudio_FullStack.png"
                                         alt="Alchxmy Studio Logo"
-                                        width={200}
-                                        height={200}
+                                        width={250}
+                                        height={250}
                                         className="mx-auto sm:hidden"
                                     />
-                                    <p className="pt-4">
+                                    <p className="pt-5">
                                         Our head architect is currently crafting
                                         a brand new virtual experience! In the
                                         meantime, feel free to poke around and
